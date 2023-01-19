@@ -6,12 +6,13 @@
 .body {
   background: ghostwhite; }
 
-.main {
+main {
   background: white;
   width: 400px;
   height: 400px;
-  display: flex;
+  display: block;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
   margin: 0% auto;
   margin-top: 200px;
@@ -22,7 +23,6 @@
 
 .title {
   text-align: center;
-  margin-top: -180px;
   font-family: sans-serif;
   padding-bottom: 20px; }
 
@@ -40,7 +40,9 @@
 
 .image {
   display: grid;
-  grid-template-columns: repeat(3, 60px); }
+  grid-template-columns: repeat(3, 60px);
+  justify-content: center;
+  align-items: center; }
 
 .logo {
   background: white;

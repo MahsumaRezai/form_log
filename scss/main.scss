@@ -8,23 +8,24 @@
      background: ghostwhite
 
  }
- .main {
-     background: white;
-     width: 400px;
-     height: 400px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin: 0% auto;
-     margin-top: 200px;
-     border: white;
-     border-radius: 20px;
-     padding: 10px;
-     box-shadow:  4px 4px 4px 4px gold
+ main {
+    background: white;
+    width: 400px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0% auto;
+    margin-top: 200px;
+    border: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:  4px 4px 4px 4px gold  
  }
+ 
  .title {
      text-align: center;
-     margin-top: -180px;
      font-family: sans-serif;
      padding-bottom: 20px;
 
@@ -44,6 +45,9 @@
  .image {
   display: grid;
   grid-template-columns: repeat(3,60px);
+  justify-content: center;
+  align-items: center;
+
 
  }
  .logo {
@@ -63,3 +67,5 @@
      padding-top: 20px;
      font-family: sans-serif;
  }
+ // button 
+
