@@ -5,8 +5,28 @@
 
  }
  .body {
-     background: ghostwhite
+   background: white;
+   animation-name:  background;
+   animation-duration: 4s;
+   animation-delay: 1s;
+   animation-direction: normal;
+   animation-timing-function: ease;
+   animation-fill-mode: both
 
+ }
+ @keyframes background {
+     0% {
+         background:  white
+     }
+     25% {
+         background: pink
+     }
+     75% {
+         background: orange
+     }
+     100% {
+         background: orchid
+     }
  }
  main {
     background: white;
@@ -21,7 +41,28 @@
     border: white;
     border-radius: 20px;
     padding: 10px;
-    box-shadow:  4px 4px 4px 4px gold  
+    box-shadow:  4px 4px 4px 4px gold ;
+    animation-name: main;
+    animation-direction: 4s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: both
+
+ }
+ @keyframes main {
+     0% {
+         box-shadow: 4px 4px 4px 4px  gold
+     }
+     25% {
+         box-shadow: 4px 4px 4px 4px  green
+     }
+     75% {
+         box-shadow: 4px 4px 4px 4px orangered
+     }
+     100% {
+         box-shadow:  4px 4px 4px 4px orange
+     }
  }
  
  .title {
@@ -85,7 +126,29 @@
      border-radius: 50px;
      margin-bottom: 20px;
      }
-     
+     &__btn--green {
+         background: gold;
+         width: 300px;
+         height: 35px;
+         border: 1px solid gold;
+         border-radius: 50px;
+         margin-bottom: 20px;
+        
+
+
+     }
+     &__link {
+         text-decoration: none;
+         color: black;
+         font-size: 15px;
+     }
+     &__link--green {
+         text-decoration: none;
+         color: white;
+         font-size: 17px;
+
+
+     }
  }
 
 
