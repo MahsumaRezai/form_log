@@ -1,0 +1,46 @@
+// button 
+.button {
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0% auto ;
+    width: 300px;
+    flex-direction: row;
+    @media screen and (max-width:420px) {
+       width: 250px
+       
+   }
+    &__btn {
+    width: 300px;
+    height: 35px;
+    background: ghostwhite;
+    border: 1px solid gold;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    @media screen and (max-width:420px) {
+        width: 250px
+        
+    }
+    }
+    &__btn--green {
+        background: gold;
+        width: 300px;
+        height: 35px;
+        border: 1px solid gold;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        @media screen and (max-width:420px) {
+           width: 250px;  
+       }
+    }
+    &__link {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    &__link--green {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+}

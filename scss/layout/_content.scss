@@ -1,0 +1,110 @@
+.body {
+    background: white;
+    animation-name:  background;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: both
+ 
+  }
+  @keyframes background {
+      0% {
+          background:  white;
+      }
+      25% {
+          background: pink;
+      }
+      75% {
+          background: orange;
+      }
+      100% {
+          background: lavender;
+      }
+  }
+  main {
+     background: white;
+     width: 400px;
+     height: 400px;
+     display: block;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+     margin: 0% auto;
+     margin-top: 200px;
+     border: white;
+     border-radius: 20px;
+     padding: 10px;
+     box-shadow:  4px 4px 4px 4px gold ;
+     animation-name: main;
+     animation-direction: 4s;
+     animation-delay: 1s;
+     animation-direction: normal;
+     animation-timing-function: ease;
+     animation-fill-mode: both;
+     @media screen  and (max-width:420px){
+         width: 300px;
+         
+     }
+ 
+  }
+  @keyframes main {
+      0% {
+          box-shadow: 4px 4px 4px 4px  gold
+      }
+      25% {
+          box-shadow: 4px 4px 4px 4px  green
+      }
+      75% {
+          box-shadow: 4px 4px 4px 4px orangered
+      }
+      100% {
+          box-shadow:  4px 4px 4px 4px orange
+      }
+  }
+  
+  .title {
+      text-align: center;
+      font-family: sans-serif;
+      padding-bottom: 20px;
+ 
+  }
+  .title::after {
+     content: "";
+     display: block;
+     width: 50%;
+     height: 3px;
+     background-color:gold;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 0% auto;
+     margin-top: 20px;
+  }
+  .image {
+   display: grid;
+   grid-template-columns: repeat(3,60px);
+   justify-content: center;
+   align-items: center;
+  }
+  .logo {
+      background:white;
+      border: 1px solid white;
+      border-radius: 50px;
+      width: 50px;
+      justify-content: center;
+      align-items: center;
+      margin: 0% auto;
+      height: 50px;
+      box-shadow: 2px 2px 2px 2px gold;
+ 
+  }
+  .text  {
+      text-align: center;
+      padding-top: 20px;
+      font-family: sans-serif;
+      padding-bottom: 20px;
+  }
+  
+ 
+ 
