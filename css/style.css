@@ -42,6 +42,9 @@ main {
   animation-direction: normal;
   animation-timing-function: ease;
   animation-fill-mode: both; }
+  @media screen and (max-width: 420px) {
+    main {
+      width: 300px; } }
 
 @keyframes main {
   0% {
@@ -100,6 +103,9 @@ main {
   margin: 0% auto;
   width: 300px;
   flex-direction: row; }
+  @media screen and (max-width: 420px) {
+    .button {
+      width: 250px; } }
   .button__btn {
     width: 300px;
     height: 35px;
@@ -107,6 +113,9 @@ main {
     border: 1px solid gold;
     border-radius: 50px;
     margin-bottom: 20px; }
+    @media screen and (max-width: 420px) {
+      .button__btn {
+        width: 250px; } }
   .button__btn--green {
     background: gold;
     width: 300px;
@@ -114,6 +123,9 @@ main {
     border: 1px solid gold;
     border-radius: 50px;
     margin-bottom: 20px; }
+    @media screen and (max-width: 420px) {
+      .button__btn--green {
+        width: 250px; } }
   .button__link {
     text-decoration: none;
     color: black;
