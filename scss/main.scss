@@ -16,16 +16,16 @@
  }
  @keyframes background {
      0% {
-         background:  white
+         background:  white;
      }
      25% {
-         background: pink
+         background: pink;
      }
      75% {
-         background: orange
+         background: orange;
      }
      100% {
-         background: orchid
+         background: lavender;
      }
  }
  main {
@@ -78,9 +78,9 @@
  .title::after {
     content: "";
     display: block;
-    width: 60%;
+    width: 50%;
     height: 3px;
-    background-color: gold;
+    background-color:gold;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -157,8 +157,6 @@
          text-decoration: none;
          color: white;
          font-size: 17px;
-
-
      }
  }
 

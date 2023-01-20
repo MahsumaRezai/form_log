@@ -20,7 +20,7 @@
   75% {
     background: orange; }
   100% {
-    background: orchid; } }
+    background: lavender; } }
 
 main {
   background: white;
@@ -64,7 +64,7 @@ main {
 .title::after {
   content: "";
   display: block;
-  width: 60%;
+  width: 50%;
   height: 3px;
   background-color: gold;
   justify-content: center;
