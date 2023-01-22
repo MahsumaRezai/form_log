@@ -5,7 +5,8 @@
     animation-delay: 1s;
     animation-direction: normal;
     animation-timing-function: ease;
-    animation-fill-mode: both
+    animation-fill-mode: both;
+    padding: 200px;
  
   }
   @keyframes background {
@@ -31,7 +32,6 @@
      flex-direction: row;
      align-items: center;
      margin: 0% auto;
-     margin-top: 200px;
      border: white;
      border-radius: 20px;
      padding: 10px;
